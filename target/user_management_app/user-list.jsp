@@ -34,7 +34,7 @@
             </header>
             <br>
 
-            <div class="row">
+            <div>
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
@@ -73,8 +73,8 @@
                                     <td>
                                         <c:out value="${user.phone}" />
                                     </td>
-                                    <td><a class="btn btn-warning" href="edit?id=<c:out value='${user.id}' />">Edit</a>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger"
+                                    <td><a class="btn btn-warning col-3" href="edit?id=<c:out value='${user.id}' />">Edit</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger col-3"
                                             href="delete?id=<c:out value='${user.id}' />">Delete</a></td>
                                 </tr>
                             </c:forEach>

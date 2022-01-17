@@ -1,5 +1,7 @@
 package com.usermanagement.model;
 
+//Java Bean
+
 public class User {
     private int id;
     private String name;
